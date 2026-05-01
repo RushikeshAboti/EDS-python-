@@ -1,0 +1,7 @@
+plt.figure(figsize=(8, 6)) 
+data.boxplot(column='Age', by='Survived') 
+plt.suptitle('') 
+plt.title('Age by Survival') 
+plt.xlabel('Survived') 
+plt.ylabel('Age')
+plt.show()
